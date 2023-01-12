@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Netflix</title>
+    <style>
+        @font-face {
+            font-family: netflixFont1;
+            src: url(netflix-sans-cufonfonts/NetflixSansBlack.ttf);
+        }
+
+        @font-face {
+            font-family: netflixFont2;
+            src: url(netflix-sans-cufonfonts/NetflixSansBold.ttf);
+        }
+
+        @font-face {
+            font-family: netflixFont3;
+            src: url(netflix-sans-cufonfonts/NetflixSansLight.ttf);
+        }
+
+        @font-face {
+            font-family: netflixFont4;
+            src: url(netflix-sans-cufonfonts/NetflixSansMedium.ttf);
+        }
+
+        @font-face {
+            font-family: netflixFont5;
+            src: url(netflix-sans-cufonfonts/NetflixSansRegular.ttf);
+        }
+
+        @font-face {
+            font-family: netflixFont6;
+            src: url(netflix-sans-cufonfonts/NetflixSansThin.ttf);
+        }
+    </style>
+</head>
+
+<body>
+    <section class="w-full h-[screen] bg-cover" style="background-image: url(assets/NetflixBackgroundImage.jpg);">
+        <div class="bg-cover" style="background: rgba(0,0,0,.6); 
+        background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));">
+            <header class="flex justify-between w-[88%] mx-auto pt-1">
+                <img src="assets/logo.png" alt="logo.png" class="w-[180px] h-[90px] relative right-[30px]">
+                <button class="bg-[#e50914] text-[#fffff8] px-4 #fffff8 rounded my-7 font-['netflixFont5']">
+                    Sign In</button>
+            </header>
+            <div class="text-white text-center w-[60%] mx-auto py-[100px]">
+                <h1 class="font-['netflixFont2'] text-5xl leading-[65px] tracking-wide w-[70%] mx-auto">
+                    Unlimited movies, TV shows,and more.
+                </h1>
+                <p class="font-['netflixFont5'] text-[26px] pt-4 pb-8">Watch anywhere. Cancel anytime.</p>
+                <p class="font-['netflixFont3'] text-xl py-5">
+                    Ready to watch? Enter your email to create or restart your membership.
+                </p>
+                <div class="w-[90%] flex flex-row mx-auto font-['netflixFont5'] pb-[40px]">
+                    <label htmlFor="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Email address"
+                        class="pl-4 h-[70px] basis-2/3 border border-white focus:border-white focus:outline-none">
+                    <button class="w-1/3 basis-1/3 bg-[#e50914] text-[#fffff8] border-0 text-3xl">Get Started
+                        <span class="text-4xl font-['netflixFont6'] h-[80px]">></span></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <hr class="bg-[#222222] m-0 h-[6px]">
+    <section></section>
+    <hr>
+    <section></section>
+    <hr>
+    <section></section>
+    <hr>
+    <section></section>
+    <hr>
+    <section></section>
+    <hr>
+    <section></section>
+</body>
+
+</html>
